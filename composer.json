@@ -1,0 +1,33 @@
+{
+    "name": "boyprakasa/bsre-e-sign-laravel",
+    "description": "Integrasi API Tanda Tangan Elektronik BSR-e BSSN untuk Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Boyprakasa\\BsreESignLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boy Prakasa",
+            "email": "boyprakasa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/framework": "^10.0||^11.0||^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Boyprakasa\\BsreESignLaravel\\BsreServiceProvider"
+            ],
+            "aliases": {
+                "BsreESign": "Boyprakasa\\BsreESignLaravel\\Facades\\BsreESign"
+            }
+        }
+    }
+}
