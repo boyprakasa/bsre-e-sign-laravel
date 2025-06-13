@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Boyprakasa\\BsreESignLaravel\\BsreServiceProvider"
+                "Boyprakasa\\BsreESignLaravel\\Providers\\BsreServiceProvider"
             ],
             "aliases": {
                 "BsreESign": "Boyprakasa\\BsreESignLaravel\\Facades\\BsreESign"
